@@ -255,24 +255,22 @@ function deEuroAdolar(euro){
 }
 
 
-function esVocal(letra){
+function esVocal(Letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  var incorrecto = "Dato incorrecto";
-  if (letra.length === 1) {
-    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-      var vocal = "Es vocal";
-      return vocal;
-    } 
+  if (Letra.length === 1) {
+    if (Letra === "a" || Letra === "e" ||  Letra === "i" || Letra === "o" || Letra === "u") {
+      return "Es vocal";
+    }
     else {
-      return incorrecto;
+      return "Dato incorrecto";
     }
   }
   else {
-    return incorrecto;
+    return "Dato incorrecto";
   }
 }
 
