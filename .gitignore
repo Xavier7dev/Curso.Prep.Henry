@@ -1,3 +1,6 @@
+#Xavier PRactice exercise of homework js
+PRACTICEJS5-02.js
+
 # Logs
 logs
 *.log
@@ -104,3 +107,4 @@ dist
 
 # TernJS port file
 .tern-port
+
